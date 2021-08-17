@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #635854; /* цвет фона шапки */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596F5;
+} 
+.navbar{
+    max-width: 1280px; /* задали  максимальную ширину блока навигации */
+    display: flex; /* сделали блок гибким */
+    justify-content: space-between; /* расставили элементы по краям */
+    align-items: center; /* поставили в центр по вертикали */
+    margin: auto; 
+}
+.navbar-menu{ /* ul */
+    margin: 0;  /* отключаем внешние отступы элементов навигационной панели*/
+    padding: 0; /* отключаем внутренние отступы элементов навигационной панели*/
+    list-style: none; /* отключаем точки у списка */
+    display: flex;
+    text-align: center;
+}
+
+.navbar-item{ /* li */
+    margin-left: 40px;
+    
+}
+
+.navbar-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-text{
+    color: white;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.navbar-phone{ /* ссылка на номер телефона */
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
